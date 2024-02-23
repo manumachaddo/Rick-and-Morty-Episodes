@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import useRickAndMortyAPI from "./hook";
-import { Episode, Info } from "./interfaces";
+import { Episode} from "./interfaces";
 import Image from "next/image";
 import arrow from "./arrow.png";
 import flecha from "./flecha.png";

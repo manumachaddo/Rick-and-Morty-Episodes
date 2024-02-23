@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(25% - 25px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}

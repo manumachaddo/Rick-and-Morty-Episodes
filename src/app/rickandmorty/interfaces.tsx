@@ -15,7 +15,20 @@ export interface Episode {
     name: string;
     air_date: string;
     episode: string;
-    characters: string;
+    characters: string[];
+    url: string;
+    created: string;
+}
+
+export interface Character{
+    id: number;
+    name: string;
+    status: string;
+    species: string;
+    type: string;
+    gender: string;
+    image: string;
+    episode: string[];
     url: string;
     created: string;
 }

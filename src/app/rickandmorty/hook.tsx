@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import type { BaseSearchResponde, Info, Episode } from "./interfaces";
+import type { BaseSearchResponde, Episode } from "./interfaces";
 import axios from "axios";
 
 const useRickAndMortyAPI = () => {
@@ -10,7 +10,7 @@ const useRickAndMortyAPI = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [hasNextPage, setHasNextPage] = useState(false);
   const [hasPrevPage, setHasPrevPage] = useState(false);
-  const numPages = 3;
+  
 
   let apiUrl = `https://rickandmortyapi.com/api/episode?page=${currentPage}`;
 
